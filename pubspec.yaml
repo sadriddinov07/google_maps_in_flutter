@@ -1,0 +1,55 @@
+name: google_maps_in_flutter
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # icons
+  cupertino_icons: ^1.0.2
+
+  # google_maps
+  google_maps_flutter: ^2.4.0
+
+  # network
+  http: ^1.1.0
+
+  # for models
+  json_serializable: ^6.7.1
+
+  # bloc
+  bloc: ^8.1.2
+
+  # path
+  path: ^1.8.3
+
+  # meta
+  meta: ^1.9.1
+
+  # flutter bloc
+  flutter_bloc: ^8.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+  # for json_serializable
+  build_runner: ^2.4.6
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/locations.json
+    - assets/light_mode.json
+    - assets/night_mode.json
